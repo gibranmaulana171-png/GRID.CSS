@@ -1,0 +1,50 @@
+.content{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "profile main"
+    "sidebar main"
+    "sidebar comment"
+    "footer footer"
+    ;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 5fr 2fr 1fr;
+}
+
+.container div{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-color: antiquewhite;
+    grid-area: header;
+}
+
+.profile{
+    background-color: aqua;
+    grid-area: profile;
+}
+
+.sidebar{
+    background-color: aquamarine;
+    grid-area: sidebar;
+}
+
+.main{
+    background-color: bisque;
+    grid-area: main;
+}
+
+.comment{
+    background-color: burlywood;
+    grid-area: comment;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    grid-area: footer;
+}

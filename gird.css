@@ -1,0 +1,41 @@
+.wrap-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.shell{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.hero{
+    background-color: aqua;
+    padding: 20px;
+    grid-row: span 3;
+}
+
+.footer{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+
+
+.g{
+    background-color: beige;
+    padding: 15px;
+    grid-row: span 3;
+    display: grid;
+}
+
+.i{
+    background-color: aqua;
+    padding: 10px;
+    grid-column: 25px;
+}
+
+.b{
+    background-color: bisque;
+    padding: 20px; 
+}
